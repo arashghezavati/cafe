@@ -1,0 +1,64 @@
+.home {
+    min-height: calc(100vh + var(--header-height));
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.home::before {
+    content: "";
+    background: center / cover url(../../assets/rizky-subagja-1k7TnX5GAww-unsplash.jpg);
+    /*Photo by <a href="https://unsplash.com/@subagjav?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rizky Subagja</a> on <a href="https://unsplash.com/photos/two-clear-drinking-glasses-on-top-of-brown-wooden-table-1k7TnX5GAww?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+  
+    filter: blur(3px); /* Adjust the blur radius as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind the content */
+}
+
+
+.home__container{
+    width: 100%;
+}
+
+.home__content{
+    max-width: 660px;
+}
+
+.home__subtitle,
+.home__description{
+    color: var(--title-color);
+}
+
+.home__subtitle{
+    font-family: var(--second-font);
+    margin-bottom: var(--h1-font-size);
+    font-weight: var(--weight-500);
+}
+
+.home__title{
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-700);
+    margin-block:1.25rem;
+}
+
+.home__description{
+    margin-bottom: 2.25rem;
+}
+
+.home__btns{
+display: flex;
+column-gap: 2rem;
+}
+
+.home__btn{
+    background-color: transparent;
+}
+
+.home__btn:hover{
+    background-color: var(--first-color);
+    color: var(--title-color);
+}
