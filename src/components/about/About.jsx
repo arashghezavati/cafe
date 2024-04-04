@@ -15,28 +15,24 @@ const About = () => {
 
         <div className="about__content">
           <h2 className="section__title" data-title="About Us">
-            Quality-driven, niche, and unapologetic.
+            Best Quality, Best Taste and Best Service.
           </h2>
 
           <p className="about__description">
-            At Angus T bakery, all of our pastries are hand-crafted in our
-            Yaletown kitchen daily, using the freshest quality ingredients
-            sourced from both France and Vancouver. While we focus on
-            traditional methods and take no short-cuts in our process, we are
-            unafraid to push creativity boundaries in flavours and textures.
+            At our bakery we provide the best quality breads, pastries with the best taste and service.
           </p>
 
           <div className="about__details grid">
             <p className="about__details-description">
               <FiCheck />
-              small, family-owned business{" "}
+              small and lovely bakery
             </p>
             <p>
               <FiCheck />
               committment to using the highest quality ingredients
             </p>
             <p>
-              <FiCheck /> passionate about our craft and our community
+              <FiCheck /> passionate about baking
             </p>
           </div>
 

@@ -15,9 +15,7 @@ const Choose = () => {
           </h2>
 
           <p className="choose__description">
-            Our croissant bakery is the perfect place to enjoy a delicious
-            croissant and a cup of coffee. We offer a wide variety of flavors
-            and are dedicated to artisanal craftsmanship.
+            crroissant and a cup of coffee. We offer a wide variety of flavors.
           </p>
 
           <div className="choose__details grid">
@@ -27,10 +25,11 @@ const Choose = () => {
               </div>
 
               <div>
-                <h3 className="choose__details-title">Artisanal Craftsmanship
+                <h3 className="choose__details-title"> 
+                warm and cozy atmosphere
                 </h3>
                 <p className="choose__details-description">
-                    new flavors and are dedicated to artisanal craftsmanship.
+                    our cafe is a warm and cozy atmosphere where you can enjoy a croissant and a cup of coffee.
                 </p>
               </div>
             </div>
@@ -49,8 +48,7 @@ const Choose = () => {
                     Wide Variety of Flavors
                 </h3>
                 <p className="choose__details-description">
-                    We offer a wide variety of flavors and are dedicated to
-                    artisanal craftsmanship.
+                    We offer different flavors of croissants.
                 </p>
               </div>
             </div>

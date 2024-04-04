@@ -61,30 +61,30 @@ export const features = [
   {
     id: 1,
     img: freeDelivery,
-    title: 'Freshly Baked Daily',
+    title: 'Free Delivery',
     description:
-      'Enjoy daily-baked, flavorful croissants in a cozy cafe ambiance—your go-to spot for authentic, handcrafted indulgence.',
+      'Enjoy free delivery on all orders, no minimum purchase required.',
   },
   {
     id: 2,
     img: certified,
-    title: 'Delectable Variety',
+    title: 'Best Price ',
     description:
-      'Explore a diverse croissant menu with sweet, savory, and classic options, each baked to perfection daily.',
+      'We offer the best price for the best croissants in town.',
   },
   {
     id: 3,
     img: coffee,
-    title: 'Artisanal Craftsmanship',
+    title: 'Coffee Beans',
     description:
-      ' Savor handcrafted croissants made with love and premium ingredients for an unforgettable taste experience.',
+      'We use the best coffee beans to make the best coffee for you.',
   },
   {
     id: 4,
     img: coffeeBeans,
     title: 'Warm Cafe Atmosphere',
     description:
-      'Relish croissants in our inviting cafe—where comfort and flavor meet for a delightful culinary journey.',
+      'We provide a warm and cozy atmosphere for you to enjoy your coffee.',
   },
 ];
 
@@ -92,36 +92,36 @@ export const menu = [
   {
     id: 1,
     img: menu1,
-    title: 'Double Baked Almond',
+    title: 'Almond',
     description: 'Almond paste',
     price: 1.50,
   },
   {
     id: 2,
     img: menu2,
-    title: 'Pistacchio',
-    description: 'Pistacchio paste',
+    title: 'Cookies',
+    description: 'cream inside',
     price: 2.50,
   },
   {
     id: 3,
     img: menu3,
-    title: 'Hazelnut Chocolate',
-    description: 'Hazelnut Chocolate paste',
+    title: 'apple pie',
+    description: 'Apple pie filling inside',
     price: 2.50,
   },
   {
     id: 4,
     img: menu4,
-    title: 'Dark Chocolate Raspberry',
-    description: 'Dark chocolate',
+    title: 'cake',
+    description: 'cream inside',
     price: 3.75,
   },
   {
     id: 5,
     img: menu5,
-    title: 'Green Tea',
-    description: 'Grean tea cream',
+    title: 'raspberry cake',
+    description: 'Raspberry jam and cream inside',
     price: 4.25,
   },
   {
@@ -134,15 +134,15 @@ export const menu = [
   {
     id: 7,
     img: menu7,
-    title: 'Lemun curd',
-    description: 'Lemun curd and cream inside',
+    title: 'Ice Cream',
+    description: 'different flavors of ice cream',
     price: 2.50,
   },
   {
     id: 8,
     img: menu8,
-    title: 'Black Sesame',
-    description: 'Black sesame paste',
+    title: 'caramel cake',
+    description: 'caramel inside',
     price: 1.05,
   },
 ];
